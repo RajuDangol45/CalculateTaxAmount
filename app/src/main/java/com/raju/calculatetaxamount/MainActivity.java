@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private double calculateTax(double salary){
         double tax = 0;
         if(salary >= 1 && salary < 200000){
-            tax = salary / 100;
+            tax = salary / 100; 
         }
         else if(salary >= 200000 && salary < 350000){
             tax = (200000/100) + ((salary - 200000) * 15)/100;
